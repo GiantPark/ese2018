@@ -4,5 +4,6 @@
 void foo1()
 {
 	printf("git ha~\n");
+	printf("hello\n");
 }
 
