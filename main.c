@@ -2,6 +2,11 @@
 #include "func1.h"
 #include "func2.h"
 
+void newprint()
+{
+	printf("newprintf\n");
+}
+
 void preprocess()
 {
 	printf("preprocess\n");
@@ -19,6 +24,7 @@ void turbo_off()
 
 int main()
 {
+	newprint();
 	foo1();
 	foo2();
 	turbo_on();
