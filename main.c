@@ -9,7 +9,7 @@ void newprint()
 
 void preprocess()
 {
-	printf("preprocess\n");
+	printf("new preprocess\n");
 }
 
 void turbo_on()
