@@ -22,6 +22,11 @@ void turbo_off()
 	printf("turbo off\n");
 }
 
+void fuck()
+{
+  printf("fucking!!nope\n");
+}
+
 int main()
 {
 	newprint();
