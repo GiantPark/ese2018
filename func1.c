@@ -1,7 +1,8 @@
-#include<stdio.h>
-#include"func1.h"
+#include <stdio.h>
+#include "func1.h"
 
-int foo()
+void foo1()
 {
 	printf("git ha~\n");
 }
+

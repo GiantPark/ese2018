@@ -1,5 +1,5 @@
 CFLAGS = -Wall
-OBJS = func1.o main.o
+OBJS = func1.o func2.o main.o
 TARGET = main
 CC = gcc
 
@@ -10,4 +10,4 @@ $(TARGET): $(OBJS)
 	$(CC) -c $(CFLAGS) $< -o $@
 
 clean:
-	rm 
+	rm -f $(OBJS)

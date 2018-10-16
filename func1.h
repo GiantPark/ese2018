@@ -4,4 +4,3 @@
 void foo1();
 
 #endif
-#ifndef FUNC1_H
